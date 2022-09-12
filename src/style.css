@@ -30,6 +30,12 @@ p {
   line-height: 1.5;
   text-align: center;
 }
+@media (max-width: 576px) {
+  .img-fluid {
+    display: none;
+  }
+}
+
 .info-links {
   display: flex;
   justify-content: center;
